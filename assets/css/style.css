@@ -80,6 +80,8 @@ main {
     background-color: lightblue;
    /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto; 
+   /* fix for hidden content when dropdown nav is enabled */
+   margin-top:47px;
 }
 
 /* Footer */
