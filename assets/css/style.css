@@ -93,7 +93,6 @@ main {
     background:url("../images/hero-image.webp") no-repeat center center/cover;
     position:relative
 }
-
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent (70% opaque) */
     background-color: rgba(241,109,107,0.7);
@@ -108,7 +107,26 @@ main {
 #cover-text>h2, #cover-text>h3 {
     color:#fff;
 }
+/* main sections*/
+#reasons {
+    width:90%;
+    margin: 20px auto;
+}
+#reasons>h2 {
+    text-align: center;
+}
 
+#benefits hr {
+    border-top:1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#benefits p {
+    padding: 0 20px;
+}
+#benefits-physical>div, #benefits-mental>div {
+    line-height:20px;
+    margin:20px 0;
+}
 /*-----Footer Styles-----*/
 #social-networks {
     text-align: center;
