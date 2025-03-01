@@ -226,10 +226,20 @@ main {
         #benefits-mental {
             order:1;
         }
+        /* change to match walkthrough
         #benefits-physical > div, #benefits-mental > div {
             align-self: center;
         }
-        
+        */
+        #benefits-phyica{
+            order: 0;
+        }
+        #benefits-mental > div {
+            align-self:flex-start;
+        }
+        #benefits-physical > div {
+            align-self:flex-end;
+        }
     }
     
     
