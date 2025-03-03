@@ -170,6 +170,15 @@ main {
   /* override the heading colour set in general */
   color: #fafafa;
 }
+
+/* Gallery Page */
+#photos img {
+    width:100%;
+}
+#photos {
+    line-height:1em;
+}
+
 /*-----Footer Styles-----*/
 #social-networks {
   text-align: center;
