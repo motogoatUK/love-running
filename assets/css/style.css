@@ -176,7 +176,7 @@ main {
     width:100%;
 }
 #photos {
-    line-height:1em;
+    line-height:1rem;
 }
 
 /*-----Footer Styles-----*/
@@ -194,8 +194,16 @@ main {
   color: #3a3a3a;
 }
 
-/*-----Media Queries Below-----
-    **Tablets and Larger**/
+/*-----Media Queries Below----- 
+    ** Large or landscape phones **/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/*    **Tablets and Larger**/
 @media screen and (min-width: 768px) {
   /* Header */
   nav {
@@ -243,6 +251,10 @@ main {
     text-align: end;
     align-self: flex-end;
   }
+  /* Gallery */
+  #photos {
+    column-count: 3;
+  }
 }
 
 /**laptops and upwards**/
@@ -251,6 +263,10 @@ main {
   /* menu links hover decoration */
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+  }
+  /* Gallery */
+  #photos {
+    column-count: 4;
   }
 }
 
