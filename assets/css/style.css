@@ -174,9 +174,10 @@ main {
 /* Gallery Page */
 #photos img {
     width:100%;
+    line-height:1em;
 }
 #photos {
-    line-height:1rem;
+    line-height:0;
 }
 
 /*-----Footer Styles-----*/
@@ -272,6 +273,7 @@ main {
 
 /**screens 1200px and above**/
 @media screen and (min-width: 1200px) {
+    /* Reasons section */
   #benefits {
     display: flex;
     flex-direction: row;
@@ -285,7 +287,7 @@ main {
             align-self: center;
         }
         */
-  #benefits-phyica {
+  #benefits-physical {
     order: 0;
   }
   #benefits-mental > div {
